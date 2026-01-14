@@ -19,6 +19,15 @@
   gap: 30px;
 }
 
+.btn-primary {
+  background-color: #ff900e;
+  color: white;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+}
+
 /* dark 02 */
 .text-gray {
   color: #424242;
@@ -59,4 +68,22 @@
 .banner {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+/* banner related styles */
+.banner-heading {
+  max-width: 862px;
+  margin: 0 auto;
+  text-align: center;
+  /* margin-bottom: 50px; */
+  margin-bottom: 3.125rem;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.banner-image {
+  width: 100%;
 }
